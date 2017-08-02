@@ -14,7 +14,6 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 	
-
     @Bean
     public SwaggerConfig swagger() {
         return new SwaggerConfig();
