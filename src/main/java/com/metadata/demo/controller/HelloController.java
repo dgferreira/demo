@@ -16,4 +16,9 @@ public class HelloController {
 		return "admin";
 	}
 	
+	@GetMapping("/users")
+	public String users(){
+		return "usuário";
+	}
+	
 }
