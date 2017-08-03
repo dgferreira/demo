@@ -8,8 +8,6 @@ import com.metadata.demo.domain.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 
-	User findById(Long id);
-	
-	User findByUsername(String name);
+	User findByUsername(String username);
 
 }

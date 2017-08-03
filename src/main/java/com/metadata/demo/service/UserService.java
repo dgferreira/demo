@@ -6,7 +6,5 @@ public interface UserService {
 
 	User salvar(User user);
 	
-	User findById(Long id);
-	
 	User findByUsername(String name);
 }
