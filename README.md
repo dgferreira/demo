@@ -1,2 +1,2 @@
 # demo
-Projeto Demo utilizando Swagger e Basic Auth
+Projeto de estudo utilizando Spring, Swagger, Authentication Provider e Testes Unitários
